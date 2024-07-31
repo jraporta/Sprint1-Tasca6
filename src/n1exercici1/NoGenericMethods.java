@@ -7,21 +7,6 @@ public class NoGenericMethods {
 	private String s3;
 	
 	
-	public static void main(String[] args) {
-		String s1 = "patates";
-		String s2 = "cigrons";
-		String s3 = "cogombres";
-
-		NoGenericMethods objecte = new NoGenericMethods(s1, s2, s3);
-		NoGenericMethods objecte2 = new NoGenericMethods(s2, s1, s3);
-		NoGenericMethods objecte3 = new NoGenericMethods(s2, s3, s1);
-		
-		System.out.println(objecte);
-		System.out.println(objecte2);
-		System.out.println(objecte3);
-	}
-	
-	
 	public NoGenericMethods(String s1, String s2, String s3) {
 		this.s1 = s1;
 		this.s2 = s2;
